@@ -1,89 +1,3 @@
-/* body{
-    background-color: #ff9d00;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 10px 15px 10px;
-    background-color:#3d3c3a;
-}
-.logo img{
-    width: 200px;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-}
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links a{
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-.nav-links li {
-    padding: 0px 20px;
-}
-
-.nav-links li a {
-    transition: 0.3s;
-}
-
-.nav-links li a:hover {
-    color: #f7a918;
-    border-bottom: 2px solid #02A25F;
-}
-
-.drop-down {
-    position: absolute;
-    background: #000000;
-    color: white;
-    font-size: 17px;
-    font-family: Folty;
-    text-align: center;
-    padding: 8px 8px;
-    margin: 20px 0 0 0;
-    line-height: 30px;
-    border-radius: 10px;
-    list-style-type: none;
-    display: none;
-}
-.services:hover .drop-down {
-    display: block;
-}
-.services i{
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    padding-left: 10px;
-    transition: 0.1s;
-}
-.services i:hover{
-    motion-rotation:90deg;
-}
-.button {
-    font-family: "Montserrat", sans-serif;
-    color: #fff;
-    text-decoration: none;
-    padding: 9px 25px;
-    background-color: #f7a918;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-  
-.button:hover {
-    background-color: #00bfff;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
 
@@ -111,8 +25,6 @@ body {
 
 /* Genral */
 header {
-    /* box-shadow: 0 4px 17px rgba(0, 0, 0, .1); */
-    /* border-bottom: solid .2px #fff; */
     position: sticky;
     top: 0;
     z-index: 1;
@@ -123,10 +35,6 @@ header {
     padding-left: 120px;
     padding-right: 120px;
 }
-
-/* .container {
-    padding: 0 8.4rem;
-} */
 
 .img-w {
     width: 100%;
@@ -144,8 +52,6 @@ header {
 
 .logo img{
     width: 250px;
-
-    /* margin-right: 200px; */
     opacity: 0;
     animation: leftSideAni 1s ease forwards;
 }
@@ -176,7 +82,6 @@ li a {
 li a.active,
 li a:hover {
     color: var(--primary-color);
-    /* border-bottom: solid 1px #52489C; */
 }
 
 #click {
@@ -458,7 +363,7 @@ li a:hover {
 
 @keyframes slide {
     25%{
-        background: url(https://www.eureporter.co/wp-content/uploads/2020/11/Caribbean-food.jpeg);
+        background: url(https://i.postimg.cc/5t6NPKhP/wmremove-transformed.jpg);
         background-size: cover;
     }
     50%{
