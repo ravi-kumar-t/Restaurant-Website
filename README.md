@@ -16,7 +16,7 @@ Mosaic Kitchen is a **modern and responsive** website template designed for **re
 With **Mosaic Kitchen**, you can create an **inviting digital presence** that engages customers and enhances your restaurant's online identity. 🍜💖  
 
 ## 🚀 Live Demo  
-🔗 **Check it out here:** [Mosaic Kitchen](https://github.com/ravi-kumar-t/Mosaic-Kitchen)  
+🔗 **Check it out here:** [Mosaic Kitchen](https://ravi-kumar-t.github.io/Restaurant-Website/)  
 
 ## 📥 Installation  
 1. Clone the repository:  
